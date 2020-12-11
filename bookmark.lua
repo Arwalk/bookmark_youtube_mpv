@@ -37,7 +37,7 @@ local function is_youtube(str)
     return (
         starts_with(str, "https://www.youtube.com/") or
         starts_with(str, "ytdl://youtu.be/") or
-        starts_with(c_path, "https://youtu.be/")
+        starts_with(str, "https://youtu.be/")
     )
 end
 
